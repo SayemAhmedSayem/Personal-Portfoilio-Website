@@ -1,0 +1,117 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    :root {
+        font-size: 50%;
+    }
+    section {
+        padding: 5rem 0rem;
+    }
+    .header-warp-text h1 {
+    font-size: 25px;}
+
+    .header {
+        height: 60vh;
+    }
+
+    .navbar-nav a img {
+        width: auto;
+        height: 5.8rem;
+    }
+
+    .navbar-nav a {
+        width: 100vw;
+        height: 6rem;
+    }
+
+    .menu .container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .grid-item {
+        padding-bottom: 5rem;
+    }
+    .protfolio-title button {
+        margin-bottom: 2rem;
+    }
+    .hire-me h2 {
+        font-size: 2rem;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    .hire-me .hire-me-btn a {
+        margin-left: 25%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    :root{
+        font-size: 55%;
+
+    }
+    section {
+         padding: 5rem 0rem;
+     }
+     .header-warp-text h1 {
+    font-size: 29px;}
+
+     .header {
+         height: 60vh;
+     }
+     .navbar-nav a img {
+         width: auto;
+         height: 5.8rem;
+     }
+     .navbar-nav a {
+         width: 100vw;
+         height: 6rem;
+     }
+     .menu .container {
+         padding-right: 0;
+         padding-left: 0;
+         margin-right: 0;
+         margin-left: 0;
+     }
+     .grid-item{
+         padding-bottom: 5rem;
+     }
+     .hire-me h2 {
+         font-size: 2rem;
+     }
+     .hire-me .hire-me-btn a {
+         font-size: 1.4rem;
+     }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section {
+        padding: 5rem 0rem;
+    }
+    .header {
+        height: 50vh;
+    }
+    .navbar-nav a{
+        width: 15rem;
+        height: 15rem;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-nav a {
+        width: 11rem;
+        height: 11rem;
+    }
+    .navbar-nav a img {
+        height: 10.8rem;
+    }
+    .single-profile img {
+        height: 25rem;
+    }
+    .hire-me h2 {
+        font-size: 2.5rem;
+    }
+}
